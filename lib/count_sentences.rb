@@ -3,6 +3,7 @@ require 'pry'
 class String
 
   def self.sentence?
+    puts 
     @sentence.end_with?(".")
     returns true
   end
