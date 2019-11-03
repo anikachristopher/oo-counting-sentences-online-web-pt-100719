@@ -2,7 +2,7 @@ require 'pry'
 
 class String
 
-  def self.sentence?
+  def self.sentence?(name)
     puts "Hi, my name is Sophie."
     @sentence.end_with?(".")
     returns true
