@@ -4,6 +4,7 @@ class String
 
   def self.sentence?
     @sentence.end_with?(".")
+    puts true
   end
 
   def question?
