@@ -1,8 +1,8 @@
 require 'pry'
 
 class String
-
-  def self.sentence?(sentence)
+  
+  def sentence?
     @sentence.end_with?(".")
     returns true
   end
