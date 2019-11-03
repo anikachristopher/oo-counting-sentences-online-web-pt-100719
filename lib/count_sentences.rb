@@ -18,6 +18,7 @@ class String
 
   def exclamation?
     if self.end_with?("!")
+      
 
   end
 
