@@ -24,7 +24,7 @@ class String
   end
 
   def count_sentences
-    count_sentences.split
+    sentence = count_sentences.split
 
   end
 end
